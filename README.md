@@ -7,7 +7,7 @@ Requirements:
 2. Sort the tasks and ensure that 'AWAITING_APPROVAL' tasks are shown first
 3. Upon approval or rejection of the task, update the store
 
-Note: You don't have to create any new components as they are ready out of the box. Please refer to the components section below to lear about their usage. 
+Note: You don't have to create any new components as they are ready out of the box. Please refer to the components folder to learn about their usage. 
 
 ## Test Environment Setup
 In the project directory, run the following commands:
