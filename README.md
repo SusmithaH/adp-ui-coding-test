@@ -4,7 +4,6 @@ Problem: Design a Task Approval System, based on the mock api provided.
 
 Requirements:
 1. Integrate with the mock api : `http://localhost:3001/getTasks` to get the list of tasks
-
 <details>
   <summary>Sample response:</summary>
   
@@ -43,8 +42,10 @@ Requirements:
       ]
 
 </details>
-3. Sort the tasks and ensure that 'AWAITING_APPROVAL' tasks are shown first
-4. Upon approval or rejection of the task, update the store
+
+2. Sort the tasks and ensure that 'AWAITING_APPROVAL' tasks are shown first.
+3. Upon approval or rejection of the task, update the store
+
 ![coding_intervie](https://github.com/SusmithaH/adp-ui-coding-test/assets/156953431/025df10c-5546-48be-8632-06f818372f50)
 Note: You don't have to create any new components as they are ready out of the box. Please refer to the components folder to learn about their usage. 
 
