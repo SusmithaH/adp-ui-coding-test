@@ -1,5 +1,19 @@
 # Task Approval System
 
+## Test Environment Setup
+In the project directory, run the following commands:
+
+```
+cd .\adp-ui-coding-test\
+npm install
+npm start
+
+cd .\sample-api\
+npm install
+npm start
+
+```
+
 Problem: Design a Task Approval System, based on the mock api provided.
 
 Requirements:
@@ -49,16 +63,3 @@ Requirements:
 ![coding_intervie](https://github.com/SusmithaH/adp-ui-coding-test/assets/156953431/025df10c-5546-48be-8632-06f818372f50)
 Note: You don't have to create any new components as they are ready out of the box. Please refer to the components folder to learn about their usage. 
 
-## Test Environment Setup
-In the project directory, run the following commands:
-
-```
-cd .\adp-ui-coding-test\
-npm install
-npm start
-
-cd .\sample-api\
-npm install
-npm start
-
-```
