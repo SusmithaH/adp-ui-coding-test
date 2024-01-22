@@ -1,5 +1,6 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
 import tasksReducer from '../model/reducers/tasks';
+import { fetchAllTasks } from '../services/tasksService';
 
 export const store = configureStore({
   reducer: {
@@ -7,6 +8,7 @@ export const store = configureStore({
   },
 });
 
+store.dispatch(fetchAllTasks())
 
 export type AppDispatch = typeof store.dispatch;
 export type RootState = ReturnType<typeof store.getState>;
